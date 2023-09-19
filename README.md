@@ -1,7 +1,7 @@
 Clone the repository and install the required packages.
 
 ```
-git clone https://github.com/lxe/simple-llm-finetuner.git
+git clone [https://github.com/lxe/simple-llm-finetuner.git](https://github.com/hadi19999/finetuner.git)
 cd simple-llm-finetuner
 pip install -r requirements.txt
 ```
