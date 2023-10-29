@@ -15,7 +15,9 @@ parser.add_argument('--models',
         'cerebras/Cerebras-GPT-590M', 
         'cerebras/Cerebras-GPT-256M', 
         'cerebras/Cerebras-GPT-111M', 
-        'EleutherAI/gpt-neo-2.7B'
+        'EleutherAI/gpt-neo-2.7B',
+        "tiiuae/falcon-40b",
+        "tiiuae/falcon-180b"
     ],  
     help='List of models to use'
 )
