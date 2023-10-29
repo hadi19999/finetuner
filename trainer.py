@@ -55,6 +55,7 @@ class Trainer():
             device_map=DEVICE_MAP,
             load_in_8bit=True,
             torch_dtype=torch.float16,
+            trust_remote_code=True
         )
         #Clear the collection that tracks which adapters are loaded, as they are associated with self.model
         self.loras = {}
