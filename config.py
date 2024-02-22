@@ -18,7 +18,8 @@ parser.add_argument('--models',
         'EleutherAI/gpt-neo-2.7B',
         "tiiuae/falcon-40b",
         "tiiuae/falcon-180b",
-        "microsoft/phi-1_5"
+        "microsoft/phi-1_5",
+        "microsoft/phi-2"
     ],  
     help='List of models to use'
 )
