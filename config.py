@@ -19,7 +19,8 @@ parser.add_argument('--models',
         "tiiuae/falcon-40b",
         "tiiuae/falcon-180b",
         "microsoft/phi-1_5",
-        "microsoft/phi-2"
+        "microsoft/phi-2",
+        "mlabonne/NeuralMarcoro14-7B"
     ],  
     help='List of models to use'
 )
