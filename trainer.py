@@ -212,7 +212,7 @@ class Trainer:
         if hasattr(self.model, "disable_adapter"):
             self.load_model(self.model_name, force=True)
 
-        if self.model_name.startswith("microsoft"):
+        if self.model_name.startswith("microsoft/phi-1_5"):
             config = peft.LoraConfig(
                 r=16,
                 lora_alpha=16,
